@@ -1,150 +1,167 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="uk">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="css/style.css">
+
   <title data-uk="Про мене" data-en="About Me">Про мене</title>
+
+  <link rel="stylesheet" href="css/style.css">
+
   <link rel="icon" sizes="32x32" href="images/bigphoto.jpg" type="image/png">
   <link rel="icon" sizes="16x16" href="images/portfolio.jpg" type="image/png">
 </head>
+
 <body>
 
-<div class="lang-switch">
-  <button id="btn-ua" class="active" onclick="setLang('uk')">UA</button>
-  <button id="btn-en" onclick="setLang('en')">EN</button>
-</div>
+  <!-- Перемикач мови -->
+  <div class="lang-switch">
+    <button id="btn-ua" class="active" onclick="setLang('uk')">UA</button>
+    <button id="btn-en" onclick="setLang('en')">EN</button>
+  </div>
 
-<div class="new">
-  <h1 data-en="Hello, I'm Igor">Привіт. Я Ігор</h1>
-  <img src="https://i.work.ua/sent_photo/0/d/1/0d1deaffb60d9d537580f07850f66acf.jpg" alt="Моє фото">
-  <p data-en="My portfolio, which I created using Figma and Visual Studio Code, and also uploaded online.">
-    Моє портфоліо, яке сам і створив за допомогою “Figma” і “Visual Studio Code”, а також залив у інтернет.
-  </p>
-</div>
+  <!-- Головний блок -->
+  <div class="new">
+    <h1 data-en="Hello, I'm Igor">Привіт. Я Ігор</h1>
 
-<div class="text">
-  <h2 data-en="About me">Про мене</h2>
-  <p data-en="I am a student at NUK named after Admiral Makarov, majoring in Computer Engineering (4th year, budget) and a beginner front-end developer with practical experience in creating web interfaces and visual content.">
-    Я студент НУК ім. адмірала Макарова за спеціальністю 123 «Комп’ютерна інженерія» (4 курс, бюджет) та початківець front-end розробник із практичним досвідом у створенні веб-інтерфейсів і візуального контенту.
-  </p>
-  <p data-en="I have experience developing interfaces using HTML, CSS, JavaScript, and basic knowledge of modern frameworks. I pay attention to details, code structure, and usability.">
-    Маю досвід розробки інтерфейсів з використанням HTML, CSS, JavaScript, а також базові знання сучасних фреймворків. У роботі уважний до деталей, структури коду та зручності користування.
-  </p>
-  <p data-en="I also have practical experience in photo editing for catalogs, social networks, advertising, and print. I specialize in portrait retouching, color correction, and preparing images for the web and social platforms.">
-    Паралельно маю практичний досвід обробки фотографій для каталогів, соціальних мереж, реклами та друку. Спеціалізуюся на портретній ретуші, кольорокорекції та підготовці зображень для вебу й соціальних платформ.
-  </p>
-  <p data-en="My goal is to get a front-end developer position where I can apply my technical and creative skills, grow professionally, and work on real projects.">
-    Моя мета — отримати позицію front-end розробника, де я зможу застосовувати свої технічні та креативні навички, розвиватися професійно та працювати над реальними проєктами.
-  </p>
-  <p data-en='Here is a <a href="https://igrek2001.github.io/"><b>calculator</b></a> I created myself'>
-    Ось <a href="https://igrek2001.github.io/"><b>калькулятор</b></a>, який я створив самостійно
-  </p>
-  <p data-en='Also my portfolio, related to <a href="https://drive.google.com/drive/folders/1f9WHxsGI4ouwbU2jRpu1CZlRhieU2hPk"><b>Photoshop</b></a>'>
-    А також моє портфоліо, яке пов’язане з <a href="https://drive.google.com/drive/folders/1f9WHxsGI4ouwbU2jRpu1CZlRhieU2hPk"><b>фотошопом</b></a>
-  </p>
-  <b data-en="Available for full-time or part-time work.">Готовий як на повну, так і на неповну зайнятість.</b>
-</div>
+    <img 
+      src="https://i.work.ua/sent_photo/0/d/1/0d1deaffb60d9d537580f07850f66acf.jpg"
+      alt="Моє фото">
 
-<div class="contact">
-  <h2 data-en="Contact Information">Контактна інформація</h2>
-  <ol>
-    <li data-en="Best option - Telegram">
-      Найкращий варіант - <a href="https://t.me/igrek_2000"><b>телеграм</b></a>
-    </li>
-    <li data-en="Call">
-      Подзвонити <a href="tel:+380990917386">+380990917386</a>
-    </li>
-    <li data-en="You can also email:">
-      Ще є варіанти написати на одну з пошт:
-      <ul>
-        <li>danilcukigor3@gmail.com</li>
-        <li>igrek_2000@ukr.net</li>
-      </ul>
-    </li>
-    <li data-en="Work.ua Profile">
-      <b><a href="https://www.work.ua/jobseeker/my/resumes/view/?id=7255922"> Зв'язок на Work.ua</a></b>
-    </li>
-  </ol>
+    <p data-en="My portfolio, which I created using Figma and Visual Studio Code, and also uploaded online.">
+      Моє портфоліо, яке сам і створив за допомогою “Figma” і “Visual Studio Code”, а також залив у інтернет.
+    </p>
+  </div>
 
-  <h2 data-en="Education">Моя освіта</h2>
-  <ol>
-    <li data-en="4th year at National University of Shipbuilding, majoring in Computer Engineering">
-      4 курс в “Національний університет кораблебудування” на спеціальності “Комп’ютерна інженерія”
-    </li>
-    <li data-en="Completed front-end developer courses at 'Kadry Dilovogo Svitу'">
-      Закінчив курси front-end розробника в “Кадри ділового світу”
-    </li>
-  </ol>
+  <!-- Про мене -->
+  <div class="text">
+    <h2 data-en="About me">Про мене</h2>
 
-  <h2 data-en="Skills and Knowledge">Знання і навички</h2>
-  <ul>
-    <li data-en="Front-end and Web Development">Front-end та веб-розробка
-      <ul>
-        <li data-en="HTML, CSS (responsive design, basic optimization)">HTML, CSS (адаптивна верстка, базова оптимізація)</li>
-        <li data-en="JavaScript (ES6+), basic TypeScript knowledge">JavaScript (ES6+), базові знання TypeScript</li>
-        <li data-en="React.js, Vue.js (beginner level)">React.js, Vue.js (початковий рівень)</li>
-        <li data-en="Git, GitHub">Git, GitHub</li>
-        <li data-en="Working with CMS: WordPress, OpenCart, Joomla">Робота з CMS: WordPress, OpenCart, Joomla</li>
-        <li data-en="Basics of SEO and website performance optimization">Основи SEO та оптимізації швидкодії сайтів</li>
-        <li data-en="Working with Figma mockups">Робота з макетами у Figma</li>
-      </ul>
-    </li>
-    <li data-en="Graphics and Image Editing">Графіка та обробка зображень
-      <ul>
-        <li data-en="Adobe Photoshop (retouching, collage, color correction)">Adobe Photoshop (ретуш, колажування, кольорокорекція)</li>
-        <li data-en="Adobe Lightroom (toning, batch processing)">Adobe Lightroom (тонування, пакетна обробка)</li>
-        <li data-en="Defect removal, skin retouching">Видалення дефектів, робота зі шкірою</li>
-        <li data-en="Product and advertising retouching">Предметна та рекламна ретуш</li>
-        <li data-en="Image optimization for websites and social media">Оптимізація зображень для веб-сайтів і соціальних мереж</li>
-      </ul>
-    </li>
-  </ul>
+    <p data-en="I am a student at NUK named after Admiral Makarov, majoring in Computer Engineering (4th year, budget) and a beginner front-end developer with practical experience in creating web interfaces and visual content.">
+      Я студент НУК ім. адмірала Макарова за спеціальністю 123 «Комп’ютерна інженерія» (4 курс, бюджет) та початківець front-end розробник із практичним досвідом у створенні веб-інтерфейсів і візуального контенту.
+    </p>
 
-  <h3 data-en="Experience and Projects">Досвід та проекти</h3>
-  <ul>
-    <li data-en="Photo retouching for an online clothing store">Ретуш фотографій для онлайн-магазину одягу</li>
-    <li data-en="Portrait editing for a photo studio">Обробка портретів для фотостудії</li>
-    <li data-en="Preparing content for Instagram and advertising materials">Підготовка контенту для Instagram та рекламних матеріалів</li>
-    <li data-en="Educational and personal front-end projects (layouts, interfaces, working with mockups)">Навчальні та особисті front-end проєкти (верстка, інтерфейси, робота з макетами)</li>
-  </ul>
-</div>
+    <p data-en="I have experience developing interfaces using HTML, CSS, JavaScript, and basic knowledge of modern frameworks. I pay attention to details, code structure, and usability.">
+      Маю досвід розробки інтерфейсів з використанням HTML, CSS, JavaScript, а також базові знання сучасних фреймворків. У роботі уважний до деталей, структури коду та зручності користування.
+    </p>
 
-<script>
-  // Зберігаємо український текст у data-original
-  document.querySelectorAll('[data-en]').forEach(el => {
-    el.dataset.original = el.innerHTML;
-  });
+    <p data-en="I also have practical experience in photo editing for catalogs, social networks, advertising, and print. I specialize in portrait retouching, color correction, and preparing images for the web and social platforms.">
+      Паралельно маю практичний досвід обробки фотографій для каталогів, соціальних мереж, реклами та друку. Спеціалізуюся на портретній ретуші, кольорокорекції та підготовці зображень для вебу й соціальних платформ.
+    </p>
 
-  function setLang(lang) {
+    <p data-en="My goal is to get a front-end developer position where I can apply my technical and creative skills, grow professionally, and work on real projects.">
+      Моя мета — отримати позицію front-end розробника, де я зможу застосовувати свої технічні та креативні навички, розвиватися професійно та працювати над реальними проєктами.
+    </p>
+
+    <p data-en='Here is a <a href="https://igrek2001.github.io/" target="_blank" rel="noopener noreferrer"><b>calculator</b></a> I created myself'>
+      Ось 
+      <a href="https://igrek2001.github.io/" target="_blank" rel="noopener noreferrer">
+        <b>калькулятор</b>
+      </a>, який я створив самостійно
+    </p>
+
+    <p data-en='Also my portfolio, related to <a href="https://drive.google.com/drive/folders/1f9WHxsGI4ouwbU2jRpu1CZlRhieU2hPk" target="_blank" rel="noopener noreferrer"><b>Photoshop</b></a>'>
+      А також моє портфоліо, яке пов’язане з 
+      <a href="https://drive.google.com/drive/folders/1f9WHxsGI4ouwbU2jRpu1CZlRhieU2hPk"
+         target="_blank"
+         rel="noopener noreferrer">
+        <b>фотошопом</b>
+      </a>
+    </p>
+
+    <b data-en="Available for full-time or part-time work.">
+      Готовий як на повну, так і на неповну зайнятість.
+    </b>
+  </div>
+
+  <!-- Контакти -->
+  <div class="contact">
+    <h2 data-en="Contact Information">Контактна інформація</h2>
+
+    <ol>
+      <li data-en="Best option - Telegram">
+        Найкращий варіант — 
+        <a href="https://t.me/igrek_2000" target="_blank" rel="noopener noreferrer">
+          <b>телеграм</b>
+        </a>
+      </li>
+
+      <li data-en="Call">
+        Подзвонити 
+        <a href="tel:+380990917386">+380990917386</a>
+      </li>
+
+      <li data-en="You can also email:">
+        Ще є варіанти написати на одну з пошт:
+        <ul>
+          <li>danilcukigor3@gmail.com</li>
+          <li>igrek_2000@ukr.net</li>
+        </ul>
+      </li>
+
+      <li data-en="Work.ua Profile">
+        <b>
+          <a href="https://www.work.ua/jobseeker/my/resumes/view/?id=7255922"
+             target="_blank"
+             rel="noopener noreferrer">
+            Зв'язок на Work.ua
+          </a>
+        </b>
+      </li>
+    </ol>
+
+    <h2 data-en="Education">Моя освіта</h2>
+    <ol>
+      <li data-en="4th year at National University of Shipbuilding, majoring in Computer Engineering">
+        4 курс в “Національний університет кораблебудування” на спеціальності “Комп’ютерна інженерія”
+      </li>
+      <li data-en="Completed front-end developer courses at 'Kadry Dilovogo Svitu'">
+        Закінчив курси front-end розробника в “Кадри ділового світу”
+      </li>
+    </ol>
+
+    <h2 data-en="Skills and Knowledge">Знання і навички</h2>
+
+    <ul>
+      <li data-en="Front-end and Web Development">
+        Front-end та веб-розробка
+        <ul>
+          <li data-en="HTML, CSS (responsive design, basic optimization)">HTML, CSS</li>
+          <li data-en="JavaScript (ES6+), basic TypeScript knowledge">JavaScript (ES6+)</li>
+          <li data-en="React.js, Vue.js (beginner level)">React.js, Vue.js</li>
+          <li data-en="Git, GitHub">Git, GitHub</li>
+          <li data-en="Working with CMS">CMS: WordPress, OpenCart, Joomla</li>
+          <li data-en="SEO basics">Основи SEO</li>
+          <li data-en="Working with Figma mockups">Figma</li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+
+  <!-- Скрипт мови -->
+  <script>
     document.querySelectorAll('[data-en]').forEach(el => {
-      if(lang === 'en'){
-        el.innerHTML = el.dataset.en;
-      } else {
-        el.innerHTML = el.dataset.original;
-      }
+      el.dataset.original = el.innerHTML;
     });
 
-    document.documentElement.lang = (lang === 'en') ? 'en' : 'uk';
+    function setLang(lang) {
+      document.querySelectorAll('[data-en]').forEach(el => {
+        el.innerHTML = (lang === 'en') ? el.dataset.en : el.dataset.original;
+      });
 
-    document.getElementById('btn-ua').classList.toggle('active', lang==='uk');
-    document.getElementById('btn-en').classList.toggle('active', lang==='en');
+      document.documentElement.lang = lang;
+      document.getElementById('btn-ua').classList.toggle('active', lang === 'uk');
+      document.getElementById('btn-en').classList.toggle('active', lang === 'en');
 
-    const titleEl = document.querySelector('title');
-    titleEl.innerHTML = (lang === 'en') ? titleEl.dataset.en : titleEl.dataset.uk;
-  }
-
-  // ---- Ось сюди вставляємо автоперемикання ----
-  window.addEventListener('DOMContentLoaded', () => {
-    const userLang = navigator.language || navigator.userLanguage;
-    if(userLang.startsWith('en')) {
-      setLang('en');
-    } else {
-      setLang('uk');
+      const titleEl = document.querySelector('title');
+      titleEl.innerHTML = (lang === 'en') ? titleEl.dataset.en : titleEl.dataset.uk;
     }
-  });
-</script>
 
+    window.addEventListener('DOMContentLoaded', () => {
+      const userLang = navigator.language || navigator.userLanguage;
+      setLang(userLang.startsWith('en') ? 'en' : 'uk');
+    });
+  </script>
 
 </body>
 </html>
