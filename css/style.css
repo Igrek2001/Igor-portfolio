@@ -1,0 +1,54 @@
+body{
+  font-size: 25px;
+  color: #000;
+  padding: 25px;
+  background: #f8f8f8;
+  font-family: Arial, sans-serif;
+}
+.new{
+  text-align: center;
+  border-radius: 25px;
+  background: #dadada;
+  padding: 15px;
+  margin: 10px;
+}
+a{
+  color: black;
+  text-decoration: none;
+}
+a:hover{
+  text-decoration: underline;
+}
+.text{
+  display: block;
+  margin-bottom: 6px;
+  background: #aaaaaa;
+  padding: 15px;
+  margin: 10px;
+  border-radius: 25px;
+}
+.text p{
+  text-indent: 15px;
+}
+h2{
+  text-align: center;
+}
+.lang-switch {
+  text-align: center;
+  margin-bottom: 10px;
+}
+.lang-switch button {
+  padding: 5px 10px;
+  margin-left: 5px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  background-color: black;
+  color: aqua;
+  transition: 0.3s;
+}
+.lang-switch button:hover, .lang-switch button.active {
+  background-color: aqua;
+  color: black;
+}
